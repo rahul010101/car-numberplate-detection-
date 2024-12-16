@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 1.5s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h2 {
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.card p {
+    padding: 0 15px 15px;
+    color: #777;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card.hidden {
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1.5s ease;
+}
+
+/* Expanded card styling */
+.card.expanded {
+    position: fixed; /* Fix to ensure it stays within the viewport */
+    top: 50%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    max-width: 600px;
+    max-height: 90vh; /* Ensure it doesn't go beyond viewport height */
+    overflow-y: auto; /* Add scrolling if content overflows */
+    background-color: #fff;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    transition: all 2s ease-in;
+    transform-origin: center;
+    border-radius: 8px; /* Maintain rounded corners */
+}
+
+/* Hide extra details initially */
+.extra-details {
+    display: none;
+}
+
+/* Show extra details when card is expanded */
+.card.expanded .extra-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 10px; /* Space between columns */
+    margin-top: 20px;
+}
+
+.card.expanded img {
+    max-width: 80%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card.expanded .extra-details p {
+    margin: 0;
+    padding: 5px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    text-align: left;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px 0;
+}

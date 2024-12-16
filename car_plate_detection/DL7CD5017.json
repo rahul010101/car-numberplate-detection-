@@ -1,0 +1,20 @@
+{
+     "id": 1,
+     "plate_number": "DL7CD5017",
+     "owner_name": "John Doe",
+     "owner_father_name": "",
+     "car_model": "Toyota Corolla",
+     "registration_date": "2023-05-10",
+     "city": "Mumbai",
+     "state": "",
+     "address": "",
+     "seat_capacity": 0,
+     "color": "",
+     "dealer_name": "",
+     "insurance_company": "",
+     "insurance_from": null,
+     "insurance_upto": null,
+     "puc_no": "",
+     "puc_from": null,
+     "puc_upto": null
+}

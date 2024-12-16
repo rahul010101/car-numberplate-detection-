@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detected Number Plates</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles1.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Detected Number Plates</h1>
+        <div id="cards-container">
+            {% for plate in detected_data %}
+                <div class="card" data-plate="{{ plate.platenumber }}">
+                    <img src="{{ plate.img }}" alt="Detected Frame">
+                    <h2>Number Plate: {{ plate.platenumber }}</h2>
+                    <p>Time: {{ plate.time }}</p>
+                    <p>Owner Name: {{ plate.detail.owner_name }}</p>
+                    <p>Car Model: {{ plate.detail.car_model }}</p>
+                    <p>Registration Date: {{ plate.detail.registration_date }}</p>
+                    <p>City: {{ plate.detail.city }}</p>
+
+                    <!-- Hidden details for expansion -->
+                    <div class="extra-details">
+                        <p><strong>State:</strong> {{ plate.detail.state }}</p>
+                        <p><strong>Address:</strong> {{ plate.detail.address }}</p>
+                        <p><strong>Seat Capacity:</strong> {{ plate.detail.seat_capacity }}</p>
+                        <p><strong>Color:</strong> {{ plate.detail.color }}</p>
+                        <p><strong>Dealer Name:</strong> {{ plate.detail.dealer_name }}</p>
+                        <p><strong>Insurance Company:</strong> {{ plate.detail.insurance_company }}</p>
+                        <p><strong>Insurance From:</strong> {{ plate.detail.insurance_from }}</p>
+                        <p><strong>Insurance Upto:</strong> {{ plate.detail.insurance_upto }}</p>
+                        <p><strong>PUC Number:</strong> {{ plate.detail.puc_no }}</p>
+                        <p><strong>PUC From:</strong> {{ plate.detail.puc_from }}</p>
+                        <p><strong>PUC Upto:</strong> {{ plate.detail.puc_upto }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const cards = document.querySelectorAll('.card');
+            let expandedCard = null;
+
+            // Event listener for card click
+            cards.forEach(card => {
+                card.addEventListener('click', function (e) {
+                    e.stopPropagation(); // Prevent click event from bubbling to document
+
+                    // Remove 'expanded' class from all cards and hide them
+                    cards.forEach(c => {
+                        c.classList.remove('expanded');
+                        c.classList.add('hidden');
+                    });
+
+                    // Expand the clicked card and bring it to the center
+                    this.classList.remove('hidden');
+                    this.classList.add('expanded');
+                    expandedCard = this; // Store the reference of expanded card
+                });
+            });
+
+            // Event listener for click outside the expanded card
+            document.addEventListener('click', function (e) {
+                if (expandedCard && !expandedCard.contains(e.target)) {
+                    // Click is outside the expanded card, reset all cards
+                    cards.forEach(c => {
+                        c.classList.remove('hidden', 'expanded');
+                        // Add back slow transition when restoring the card layout
+                        c.style.transition = 'all 2s ease-in';
+                    });
+                    expandedCard = null; // Reset expanded card
+                }
+            });
+        });
+    </script>
+</body>
+</html>

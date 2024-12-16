@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Details</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        {% if car %}
+            <h1>Details for Car with Plate Number: {{ car.number_plate_number }}</h1>
+
+            <div class="car-details">
+                <img src="{{ car.img }}" alt="Car Image" class="car-image">
+                <p><strong>Plate Number:</strong> {{ car.number_plate_number }}</p>
+                <p><strong>Owner Name:</strong> {{ number_json.owner_name }}</p>
+                <p><strong>Father's Name:</strong> {{ number_json.owner_father_name }}</p>
+                <p><strong>Car Model:</strong> {{ number_json.car_model }}</p>
+                <p><strong>Registration Date:</strong> {{ number_json.registration_date }}</p>
+                <p><strong>City:</strong> {{ number_json.city }}</p>
+                <p><strong>State:</strong> {{ number_json.state }}</p>
+                <p><strong>Address:</strong> {{ number_json.address }}</p>
+                <p><strong>Seat Capacity:</strong> {{ number_json.seat_capacity }}</p>
+                <p><strong>Color:</strong> {{ number_json.color }}</p>
+                <p><strong>Dealer:</strong> {{ number_json.dealer_name }}</p>
+                <p><strong>Insurance Company:</strong> {{ number_json.insurance_company }}</p>
+                <p><strong>Insurance From:</strong> {{ number_json.insurance_from }}</p>
+                <p><strong>Insurance Upto:</strong> {{ number_json.insurance_upto }}</p>
+                <p><strong>PUC Number:</strong> {{ number_json.puc_no }}</p>
+                <p><strong>PUC From:</strong> {{ number_json.puc_from }}</p>
+                <p><strong>PUC Upto:</strong> {{ number_json.puc_upto }}</p>
+            </div>
+
+        {% else %}
+            <p>No car details found.</p>
+        {% endif %}
+
+        <a href="{% url 'detected_plates' %}">Back to Detected Plates</a>
+    </div>
+</body>
+</html>

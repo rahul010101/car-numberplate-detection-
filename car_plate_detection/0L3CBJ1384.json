@@ -1,0 +1,20 @@
+{
+     "id": 2,
+     "plate_number": "0L3CBJ1384",
+     "owner_name": "Jane Smith",
+     "owner_father_name": "",
+     "car_model": "Honda Civic",
+     "registration_date": "2022-12-21",
+     "city": "New Delhi",
+     "state": "",
+     "address": "",
+     "seat_capacity": 0,
+     "color": "",
+     "dealer_name": "",
+     "insurance_company": "",
+     "insurance_from": null,
+     "insurance_upto": null,
+     "puc_no": "",
+     "puc_from": null,
+     "puc_upto": null
+}

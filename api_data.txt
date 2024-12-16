@@ -1,0 +1,383 @@
+{
+  "status": "success",
+  "message": "Vehicle Found",
+  "response_type": "FULL_DATA",
+  "result": {
+    "state_code": "GJ",
+    "state": "Gujarat",
+    "office_code": 1,
+    "office_name": "AHMEDABAD",
+    "reg_no": "GJ01JT0459",
+    "reg_date": "2020-02-13",
+    "purchase_date": "2020-01-30",
+    "owner_count": 1,
+    "owner_name": "JAGDISHKUMAR MANUBHAI RABARI",
+    "owner_father_name": "MANUBHAI RABARI",
+    "current_address_line1": "22,MANSUKHPURAS CHAWL",
+    "current_address_line2": "OPP.VASANT CINEMA OUT SIDE",
+    "current_address_line3": "DARIYAPUR DARVAJA,",
+    "current_district_name": "Ahmedabad",
+    "current_state": "GJ",
+    "current_state_name": "Gujarat",
+    "current_pincode": 380016,
+    "permanent_address_line1": "22,MANSUKHPURAS CHAWL",
+    "permanent_address_line2": "OPP.VASANT CINEMA OUT SIDE",
+    "permanent_address_line3": "DARIYAPUR DARVAJA,",
+    "permanent_district_name": "Ahmedabad",
+    "permanent_state": "GJ",
+    "permanent_state_name": "Gujarat",
+    "permanent_pincode": 380016,
+    "owner_code_descr": "INDIVIDUAL",
+    "reg_type_descr": "TEMPORARY REGISTERED VEHICLE",
+    "vehicle_class_desc": "Motor Cab",
+    "chassis_no": "MA3EJKD1S00C51332",
+    "engine_no": "K12MN2392205",
+    "vehicle_manufacturer_name": "MARUTI SUZUKI INDIA LTD",
+    "model_code": "VANA0001E041001",
+    "model": "TOUR S CNG",
+    "body_type": "SALOON",
+    "cylinders_no": 4,
+    "vehicle_hp": 83.08,
+    "vehicle_seat_capacity": 5,
+    "vehicle_standing_capacity": 0,
+    "vehicle_sleeper_capacity": 0,
+    "unladen_weight": 1045,
+    "vehicle_gross_weight": 1480,
+    "vehicle_gross_comb_weight": 0,
+    "fuel_descr": "PETROL/CNG",
+    "color": "PEARL ARCTIC WHITE",
+    "manufacturing_mon": 1,
+    "manufacturing_yr": 2020,
+    "norms_descr": "BHARAT STAGE IV",
+    "wheelbase": 2430,
+    "cubic_cap": 1197,
+    "floor_area": 0,
+    "ac_fitted": "Y",
+    "audio_fitted": "Y",
+    "video_fitted": "N",
+    "vehicle_purchase_as": "B",
+    "vehicle_catg": "LPV",
+    "dealer_code": "GJ00100005",
+    "dealer_name": "KIRAN MOTORS LTD..",
+    "dealer_address_line1": "P-82/1/1 NR SHYAMPUJA BUNGLOWS-2",
+    "dealer_address_line2": "NR HP PETROL PUMP MOTERA",
+    "dealer_address_line3": "",
+    "dealer_district": "474",
+    "dealer_pincode": "380005",
+    "sale_amount": 453880,
+    "laser_code": "HOMO-DATA",
+    "garage_add": "",
+    "length": 3995,
+    "width": 1695,
+    "height": 1555,
+    "reg_upto": "2025-03-27",
+    "fit_upto": "2025-03-27",
+    "annual_income": 0,
+    "op_dt": "2023-03-29 20:38:54.374466",
+    "imported_vehicle": "N",
+    "other_criteria": 0,
+    "status": "Y",
+    "vehicle_type": "Transport",
+    "tax_mode": "L",
+    "mobile_no": 9428109709,
+    "email_id": "",
+    "pan_no": "CBQPR1084N",
+    "aadhar_no": "",
+    "passport_no": "",
+    "ration_card_no": "",
+    "voter_id": "",
+    "dl_no": "",
+    "verified_on": "2020-02-15",
+    "dl_validation_required": false,
+    "condition_status": false,
+    "vehicle_insurance_details": {
+      "insurance_from": "2023-01-30",
+      "insurance_upto": "2024-01-29",
+      "insurance_company_code": 1114,
+      "insurance_company_name": "ICICI Lombard General Insurance Co. Ltd.",
+      "opdt": "2023-02-02 07:11:46.776711",
+      "policy_no": "3004/MI-11805055/00/000",
+      "vahan_verify": "true",
+      "reg_no": "GJ01JT0459"
+    },
+    "vehicle_pucc_details": {
+      "pucc_from": "27-03-2023",
+      "pucc_upto": "26-03-2024",
+      "pucc_centreno": "GJ0180084",
+      "pucc_no": "GJ01800840005727",
+      "op_dt": "27-03-2023"
+    },
+    "permit_details": {
+      "appl_no": "GJ20021758811211",
+      "pmt_no": "GJ2020-CC-6227B",
+      "reg_no": "GJ01JT0459",
+      "rcpt_no": "GJ1D200200001581",
+      "purpose": "Fresh Permit",
+      "permit_type": "Contract Carriage Permit",
+      "permit_catg": "TAXI CAB PERMIT",
+      "permit_issued_on": "2020-02-26",
+      "permit_valid_from": "2020-02-25",
+      "permit_valid_upto": "2025-02-24"
+    },
+    "latest_tax_details": {
+      "reg_no": "GJ01JT0459",
+      "tax_mode": "L",
+      "payment_mode": "I",
+      "tax_amt": 27233,
+      "tax_fine": 0,
+      "rcpt_dt": "04-02-2020",
+      "tax_from": "2020-01-30",
+      "tax_upto": null,
+      "collected_by": "1705078297",
+      "rcpt_no": "GJ1D200200001581"
+    },
+    "financer_details": {
+      "hp_type": "HT",
+      "financer_name": "DENA BANK",
+      "financer_address_line1": ".",
+      "financer_address_line2": "",
+      "financer_address_line3": "",
+      "financer_district": 474,
+      "financer_pincode": 380016,
+      "financer_state": "GJ",
+      "hypothecation_dt": "2020-01-30",
+      "op_dt": "2020-02-15"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"status":"success","message":"Backup response data retrieved due to ongoing source server downtimes; kindly retry after some time for the complete response.","response_type":"BACKUP","result":{"state_code":"DL","state":"NA","office_code":3,"office_name":"","reg_no":"DL3CBJ1384","reg_date":"2009-06-10","purchase_date":"","owner_count":"1","owner_name":"NA","owner_father_name":"S L MUKHI","current_address_line1":"NA","current_address_line2":"","current_address_line3":"","current_district_name":"","current_state":"","current_state_name":"","current_pincode":"","current_full_address":"NA","permanent_address_line1":"NA","permanent_address_line2":"","permanent_address_line3":"","permanent_district_name":"","permanent_state":"","permanent_state_name":"","permanent_pincode":"","permanent_full_address":"NA","owner_code_descr":"","reg_type_descr":"","vehicle_class_desc":"Motor Car(LMV)","chassis_no":"MA3EKE41S00435294","engine_no":"G13BBN496073","vehicle_manufacturer_name":"MARUTI SUZUKI INDIA LTD","model_code":"","model":"SWIFT LXI (BS3","body_type":"SALOON","cylinders_no":"","vehicle_hp":"","vehicle_seat_capacity":"5","vehicle_standing_capacity":"NA","vehicle_sleeper_capacity":"NA","unladen_weight":"980","vehicle_gross_weight":"1415","vehicle_gross_comb_weight":"","fuel_descr":"PETROL","color":"S. SILVER","manufacturing_mon":0,"manufacturing_yr":"2009","norms_descr":"BHARAT STAGE III","wheelbase":"NA","cubic_cap":"1298","floor_area":null,"ac_fitted":null,"audio_fitted":null,"video_fitted":null,"vehicle_purchase_as":"","vehicle_catg":"LMV","dealer_code":"","dealer_name":"","dealer_address_line1":"","dealer_address_line2":"","dealer_address_line3":"","dealer_district":"","dealer_pincode":null,"dealer_full_address":"","sale_amount":0,"laser_code":0,"garage_add":0,"length":0,"width":null,"height":null,"reg_upto":null,"fit_upto":"2024-06-09","op_dt":null,"imported_vehicle":null,"other_criteria":null,"status":"Y","vehicle_type":null,"tax_mode":null,"verified_on":null,"dl_validation_required":null,"condition_status":null,"vehicle_insurance_details":{"insurance_from":null,"insurance_upto":null,"insurance_company_code":"NA","insurance_company_name":"NA","opdt":"","policy_no":null,"vahan_verify":null,"reg_no":"DL3CBJ1384"},"vehicle_pucc_details":{"pucc_no":null,"pucc_upto":"16-10-2023","pucc_from":null,"pucc_centreno":null,"op_dt":null},"permit_details":{"appl_no":null,"pmt_no":null,"reg_no":"DL3CBJ1384","rcpt_no":null,"purpose":null,"permit_type":"NA","permit_catg":null,"permit_issued_on":null,"permit_valid_from":null,"permit_valid_upto":null},"latest_tax_details":null,"financer_details":null}}
+
+
+
+{"status":"success","message":"Vehicle Found","response_type":"FULL_DATA","result":{"state_code":"HR","state":"Haryana","office_code":26,"office_name":"SDM GURUGRAM","reg_no":"HR26CQ6869","reg_date":"2015-08-26","purchase_date":"2015-07-30","owner_count":1,"owner_name":"ANIL KUMAR","owner_father_name":"ATAR SINGH","current_address_line1":"1667, A.G.F. BLOCK-C","current_address_line2":"SUSHANT LOK PHASE-I","current_address_line3":"GURGAON","current_district_name":"","current_state":"HR","current_state_name":"Haryana","current_pincode":null,"current_full_address":"1667, A.G.F. BLOCK-C, SUSHANT LOK PHASE-I, GURGAON, Haryana","permanent_address_line1":"1667, A.G.F. BLOCK-C","permanent_address_line2":"SUSHANT LOK PHASE-I","permanent_address_line3":"GURGAON","permanent_district_name":"","permanent_state":"HR","permanent_state_name":"Haryana","permanent_pincode":null,"permanent_full_address":"1667, A.G.F. BLOCK-C, SUSHANT LOK PHASE-I, GURGAON, Haryana","owner_code_descr":"INDIVIDUAL","reg_type_descr":"NEW","vehicle_class_desc":"Motor Car","chassis_no":"MA701KH4WFE005013","engine_no":"4D56UCFV3298","vehicle_manufacturer_name":"HINDUSTAN MOTOR FINANCE CORPORATION LIMITED","model_code":"PAJERO SPORT","model":"PAJERO SPORT","body_type":"SALOON","cylinders_no":4,"vehicle_hp":0,"vehicle_seat_capacity":7,"vehicle_standing_capacity":null,"vehicle_sleeper_capacity":0,"unladen_weight":2065,"vehicle_gross_weight":2710,"vehicle_gross_comb_weight":0,"fuel_descr":"DIESEL","color":"WHITE RED","manufacturing_mon":5,"manufacturing_yr":2015,"norms_descr":"EURO 4","wheelbase":0,"cubic_cap":0,"floor_area":null,"ac_fitted":"N","audio_fitted":"N","video_fitted":"N","vehicle_purchase_as":"B","vehicle_catg":"LMV","dealer_code":"HR02600028","dealer_name":"NIL","dealer_address_line1":"NA","dealer_address_line2":"","dealer_address_line3":"","dealer_district":"0","dealer_pincode":"0","dealer_full_address":"NIL, NA, 0, 0","sale_amount":2344000,"laser_code":null,"garage_add":null,"length":null,"width":null,"height":null,"reg_upto":"2030-07-29","fit_upto":"2030-07-29","op_dt":"2015-08-26 08:06:55","imported_vehicle":"N","other_criteria":null,"status":"A","vehicle_type":"Non-Transport","tax_mode":"O","verified_on":null,"dl_validation_required":null,"condition_status":false,"vehicle_insurance_details":{"insurance_from":"2024-07-30","insurance_upto":"2025-07-29","insurance_company_code":1318,"insurance_company_name":"United India Insurance Co. Ltd.","opdt":"2024-07-30 07:04:38.499585","policy_no":"2230003124P106230647","vahan_verify":"true","reg_no":"HR26CQ6869"},"vehicle_pucc_details":{"pucc_from":"15-02-2024","pucc_upto":"14-02-2025","pucc_centreno":"DL0030073","pucc_no":"DL00300730003423","op_dt":"15-02-2024"},"permit_details":null,"latest_tax_details":{"reg_no":"HR26CQ6869","tax_mode":"O","payment_mode":"C","tax_amt":234400,"tax_fine":0,"rcpt_dt":"25-08-2015","tax_from":"2015-07-30","tax_upto":null,"collected_by":"fee","rcpt_no":"3894266"},"financer_details":{"hp_type":"HP","financer_name":"HDFC BANK LTD","financer_address_line1":".","financer_address_line2":".","financer_address_line3":null,"financer_district":-1,"financer_pincode":null,"financer_state":"HR","financer_full_address":"HDFC BANK LTD, ., ., -1, HR","hypothecation_dt":"2015-08-25","op_dt":"2015-08-25"}}}
+
+status:"success"
+message:"Vehicle Found"
+response_type:"FULL_DATA"
+result:
+state_code:"HR"
+state:"Haryana"
+office_code:26
+office_name:"SDM GURUGRAM"
+reg_no:"HR26CQ6869"
+reg_date:"2015-08-26"
+purchase_date:"2015-07-30"
+owner_count:1
+owner_name:"ANIL KUMAR"
+owner_father_name:"ATAR SINGH"
+current_address_line1:"1667, A.G.F. BLOCK-C"
+current_address_line2:"SUSHANT LOK PHASE-I"
+current_address_line3:"GURGAON"
+current_district_name:""
+current_state:"HR"
+current_state_name:"Haryana"
+current_pincode:null
+current_full_address:"1667, A.G.F. BLOCK-C, SUSHANT LOK PHASE-I, GURGAON, Haryana"
+permanent_address_line1:"1667, A.G.F. BLOCK-C"
+permanent_address_line2:"SUSHANT LOK PHASE-I"
+permanent_address_line3:"GURGAON"
+permanent_district_name:""
+permanent_state:"HR"
+permanent_state_name:"Haryana"
+permanent_pincode:null
+permanent_full_address:"1667, A.G.F. BLOCK-C, SUSHANT LOK PHASE-I, GURGAON, Haryana"
+owner_code_descr:"INDIVIDUAL"
+reg_type_descr:"NEW"
+vehicle_class_desc:"Motor Car"
+chassis_no:"MA701KH4WFE005013"
+engine_no:"4D56UCFV3298"
+vehicle_manufacturer_name:"HINDUSTAN MOTOR FINANCE CORPORATION LIMITED"
+model_code:"PAJERO SPORT"
+model:"PAJERO SPORT"
+body_type:"SALOON"
+cylinders_no:4
+vehicle_hp:0
+vehicle_seat_capacity:7
+vehicle_standing_capacity:null
+vehicle_sleeper_capacity:0
+unladen_weight:2065
+vehicle_gross_weight:2710
+vehicle_gross_comb_weight:0
+fuel_descr:"DIESEL"
+color:"WHITE RED"
+manufacturing_mon:5
+manufacturing_yr:2015
+norms_descr:"EURO 4"
+wheelbase:0
+cubic_cap:0
+floor_area:null
+ac_fitted:"N"
+audio_fitted:"N"
+video_fitted:"N"
+vehicle_purchase_as:"B"
+vehicle_catg:"LMV"
+dealer_code:"HR02600028"
+dealer_name:"NIL"
+dealer_address_line1:"NA"
+dealer_address_line2:""
+dealer_address_line3:""
+dealer_district:"0"
+dealer_pincode:"0"
+dealer_full_address:"NIL, NA, 0, 0"
+sale_amount:2344000
+laser_code:null
+garage_add:null
+length:null
+width:null
+height:null
+reg_upto:"2030-07-29"
+fit_upto:"2030-07-29"
+op_dt:"2015-08-26 08:06:55"
+imported_vehicle:"N"
+other_criteria:null
+status:"A"
+vehicle_type:"Non-Transport"
+tax_mode:"O"
+verified_on:null
+dl_validation_required:null
+condition_status:false
+vehicle_insurance_details:
+insurance_from:"2024-07-30"
+insurance_upto:"2025-07-29"
+insurance_company_code:1318
+insurance_company_name:"United India Insurance Co. Ltd."
+opdt:"2024-07-30 07:04:38.499585"
+policy_no:"2230003124P106230647"
+vahan_verify:"true"
+reg_no:"HR26CQ6869"
+vehicle_pucc_details:
+pucc_from:"15-02-2024"
+pucc_upto:"14-02-2025"
+pucc_centreno:"DL0030073"
+pucc_no:"DL00300730003423"
+op_dt:"15-02-2024"
+permit_details:null
+latest_tax_details:
+reg_no:"HR26CQ6869"
+tax_mode:"O"
+payment_mode:"C"
+tax_amt:234400
+tax_fine:0
+rcpt_dt:"25-08-2015"
+tax_from:"2015-07-30"
+tax_upto:null
+collected_by:"fee"
+rcpt_no:"3894266"
+financer_details:
+hp_type:"HP"
+financer_name:"HDFC BANK LTD"
+financer_address_line1:"."
+financer_address_line2:"."
+financer_address_line3:null
+financer_district:-1
+financer_pincode:null
+financer_state:"HR"
+financer_full_address:"HDFC BANK LTD, ., ., -1, HR"
+hypothecation_dt:"2015-08-25"
+op_dt:"2015-08-25"
+
+
+
+
+
+
+chalan hr26cq6869
+
+
+status:200
+message:"Challan Details Found"
+results:0:
+accused_name:"A**L K***R"
+document_number:"HR26CQ6869"
+driving_license_number:""
+state_code:"HR"
+challan_number:"HR46416231223112330"
+challan_date_time:"2023-12-10 17:39:53"
+challan_status:"Pending"
+challan_place:"Rajesh_Pilot,From_St._Xavier_School_Lane1 Gurgaon - GCB"
+offences:0:
+offence_id:5562
+offence_name:"35. Violation of road marking"
+1:
+accused_name:"A*****v K***r"
+document_number:"HR26CQ6869"
+driving_license_number:"************863"
+state_code:"DL"
+challan_number:"DL141494231203120048"
+challan_date_time:"2023-12-03 12:00:48"
+challan_status:"Pending"
+challan_place:"ARVINDO CHOCK RED LIGHT Outer North - SNC"
+offences:0:
+offence_id:4570
+offence_name:"Violation of Stop Line"
+2:
+accused_name:"A*****v K***r"
+document_number:"HR26CQ6869"
+driving_license_number:"************863"
+state_code:"DL"
+challan_number:"DL19983230318203353"
+challan_date_time:"2023-03-18 20:33:53"
+challan_status:"Disposed"
+challan_place:"M.N METRO Dwarka - IGI"
+offences:0:
+offence_id:4572
+offence_name:"Violation of Mandatory Signs(One Way,No Right Turn)"
+3:
+accused_name:"A**L K***R"
+document_number:"HR26CQ6869"
+driving_license_number:"************167"
+state_code:"HP"
+challan_number:"HP13558230116165744"
+challan_date_time:"2023-01-16 16:57:44"
+challan_status:"Pending"
+challan_place:"OVER SPEED NAKA NEAR SHOGHI SP Shimla - SML"
+offences:0:
+offence_id:11176
+offence_name:"Section 190(2)While driving violating the standards prescribed in relation to road safety"
+4:
+accused_name:"A**L K***R"
+document_number:"HR26CQ6869"
+driving_license_number:"************167"
+state_code:"DL"
+challan_number:"DL66910210217115823"
+challan_date_time:"2021-02-17 11:58:23"
+challan_status:"Disposed"
+challan_place:"PTS T POINT South - HKC"
+offences:0:
+offence_id:4583
+offence_name:"Not using Seat-belt"
+5:
+accused_name:"A**L K***R"
+document_number:"HR26CQ6869"
+driving_license_number:""
+state_code:"UP"
+challan_number:"UP15805191111200507"
+challan_date_time:"2019-11-11 20:05:07"
+challan_status:"Disposed"
+challan_place:"AGRA TO LUCKNOW EXPRESSWAY TOLL PLAZA LKO TOLL Lucknow - KKR"
+offences:0:
+offence_id:4859
+offence_name:"Contravention of the speed limits (In the light motor vehicle)"
+1:
+offence_id:4856
+offence_name:"Disobedience of any direction lawful given by the authority ."
+total_challan:6

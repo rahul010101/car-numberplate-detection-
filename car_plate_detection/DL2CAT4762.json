@@ -1,0 +1,20 @@
+{
+     "id": 3,
+     "plate_number": "DL2CAT4762",
+     "owner_name": "Rahul Sharma",
+     "owner_father_name": "",
+     "car_model": "Hyundai i20",
+     "registration_date": "2021-08-15",
+     "city": "Bangalore",
+     "state": "",
+     "address": "",
+     "seat_capacity": 0,
+     "color": "",
+     "dealer_name": "",
+     "insurance_company": "",
+     "insurance_from": null,
+     "insurance_upto": null,
+     "puc_no": "",
+     "puc_from": null,
+     "puc_upto": null
+}

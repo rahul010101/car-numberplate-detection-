@@ -1,0 +1,20 @@
+{
+     "id": 4,
+     "plate_number": "HR26CQ6869",
+     "owner_name": "Priya Patel",
+     "owner_father_name": "",
+     "car_model": "Maruti Swift",
+     "registration_date": "2020-03-18",
+     "city": "Ahmedabad",
+     "state": "",
+     "address": "",
+     "seat_capacity": 0,
+     "color": "",
+     "dealer_name": "",
+     "insurance_company": "",
+     "insurance_from": null,
+     "insurance_upto": null,
+     "puc_no": "",
+     "puc_from": null,
+     "puc_upto": null
+}

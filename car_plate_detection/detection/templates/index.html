@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Video</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="{% url 'index' %}" class="nav-link">Home</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Upload Video for Car Plate Detection</h1>
+        <p>To get started, upload a video containing vehicle footage. The system will detect and extract license plate information.</p>
+        <form id="uploadForm" action="{% url 'upload' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="video" accept="video/*" required>
+            <button type="submit">Upload Video</button>
+            <div id="loader" class="loader" style="display: none;"></div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Car Plate Detection. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Show loader when form is submitting
+        document.getElementById('uploadForm').addEventListener('submit', function() {
+            document.getElementById('loader').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
