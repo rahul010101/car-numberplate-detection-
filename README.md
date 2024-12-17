@@ -93,26 +93,26 @@ Follow these steps to set up the project on your local machine:
 10. File Structure 📂
 
 **Here’s an overview of the main files and directories in this project**:
-vehicle-number-plate-detection/
-│
-├── uploads/                     # Directory for uploaded video files
-├── results/                     # Results (car_plate_data.txt, JSON files)
-├── static/
-│   ├── images/                  # Images for detected frames
-│   ├── styles1.css              # CSS file for styling
-│
-├── templates/
-│   ├── index.html               # Video upload page
-│   ├── result.html              # Results display page
-│   ├── detected_plates.html     # Card layout for number plate details
-│
-├── myapp/
-│   ├── views.py                 # Core logic for video processing and data display
-│   ├── main1.py                 # Video processing with OpenCV
-│
-├── requirements.txt             # Python dependencies
-├── manage.py                    # Django management file
-└── README.md                    # Project documentation (this file)
+1.  vehicle-number-plate-detection/
+2.  │
+3.  ├── uploads/                     # Directory for uploaded video files
+4.  ├── results/                     # Results (car_plate_data.txt, JSON files)
+5.  ├── static/
+6.  │   ├── images/                  # Images for detected frames
+7.  │   ├── styles1.css              # CSS file for styling
+8.  │
+9.  ├── templates/
+10. │   ├── index.html               # Video upload page
+11. ├── result.html              # Results display page
+12. │   ├── detected_plates.html     # Card layout for number plate details
+13. │
+14. ├── myapp/
+15. │   ├── views.py                 # Core logic for video processing and data display
+16. │   ├── main1.py                 # Video processing with OpenCV
+17. │
+18. ├── requirements.txt             # Python dependencies
+19. ├── manage.py                    # Django management file
+20. └── README.md                    # Project documentation (this file)
 
 **Future Improvements** 🛠️
 Real-Time Detection: Integrate live camera feeds for real-time plate detection.
